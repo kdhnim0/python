@@ -1,0 +1,17 @@
+1. stock market prediction > regression
+   input : 한국 COSPI + 미국 DJIA 검색
+   output : COSPI 미래의 1개월간(1일)의 종가 예측
+모범 : 최대 2년치, MixMaxScaler, 교차검증,
+과거 3개월로부터 미래 1개월, 예측과 실제의 차이를 그래프로 표현
+
+2. loan default prediction > classfication
+   input : 검색
+모범 : get_dummy(), 스케일러, 교차검증, 그리드서치, 트리로 어떤 사람이 돈을 안값는지 확인
+
+
+3. credit card froud detection > clustering
+   input : 검색
+모범 : 클러스터링 한후 scatter와 정상/비정상 거래 그래프 대조
+
+평가항목 : 결과, 성능(score), 검증 cross validation/ crid-search
+EDA, 모델선택

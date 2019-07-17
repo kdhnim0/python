@@ -1,0 +1,11 @@
+1. 분류
+2. 값 예측(회귀)
+3. 비지도학습 - 군집화
+
+Adult/Wine 데이터셋 사용
+분류 정확도 95%이상
+-테스트셋이 따로 분리안되어있으면 25%를 테스트셋으로 사용
+-Adult:2진분류 - 연소득 5천만 이상/이하
+- wine 원산지 1,2,3 분류
+
+'age','workclass','fnlwgt','education','education-num','marital-status','occupation','relationship','race','sex','capital-gain','capital-loss','hours-per-week','native-country'
